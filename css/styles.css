@@ -69,3 +69,7 @@ p {
         padding-top: 100px;
     }
 }
+
+.navbar-default a.navbar-brand {
+    color:aliceblue;
+}
