@@ -1,6 +1,75 @@
 /** HEADER **/
 #header-nav {
     background-color: cadetblue;
+    color: aliceblue;
     border-radius: 0;
     border: 0;
+  }
+
+  .card-content-parent {
+    max-width: 100%;
+    height: 700px;
+    margin: 16px;
+    background-color: beige;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid black;
+  }
+  .card-content-parent a {
+      text-decoration: none;
+      color:deeppink;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 8px;
+  }
+
+  .card-content-parent a:hover {
+    text-shadow: .5px .5px coral;
+}
+
+  .card-contet-parent--title{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 33%;
+    height: 24px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+  }
+
+  .first-title {
+    background-color: coral;
+  }
+  .second-title {
+    background-color: crimson;
+    color: white;
+  }
+  .third-title {
+    background-color: cornflowerblue;
+  }
+
+  p {
+    margin-top: 24px;
+    padding: 8px;
+    overflow-y: auto;
+    height: 650px;
+  }
+
+.main-content {
+    padding-top: 50px;
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    #title{
+        padding-top: 50px;
+    }
+    #beef, #sushi {
+        padding-top: 170px;
+    }
+    #chicken {
+        padding-top: 100px;
+    }
   }
