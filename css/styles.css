@@ -61,9 +61,8 @@
     padding-top: 50px;
 }
 
-/********** Small devices only **********/
 @media (max-width: 767px) {
-    #title{
+    #title {
         padding-top: 50px;
     }
     #beef, #sushi {
@@ -72,4 +71,4 @@
     #chicken {
         padding-top: 100px;
     }
-  }
+}
